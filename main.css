@@ -16,11 +16,6 @@ body {
     padding-top: 25px;
 }
 
-/*#canvas {
-	max-width: 1200px;
-    margin: 10px auto;
-    padding: 75px;
-}*/
 
 #footer {
 
@@ -35,25 +30,6 @@ body {
     height: 60px;
     padding-right: 35px;
 }
-
-/*#footer p {
-
-	padding-top: 10px;
-	padding-left: 10px;
-	float: left;
-}
-
-#footer a {
-
-	padding-top: 20px;
-	padding-right: 30px;
-	float: right;
-}
-
-a {
-	color: #575757;
-	text-decoration: none;
-}*/
 
 #ronny {
 	margin:auto;
@@ -116,10 +92,6 @@ a {
 	background-color:#0061a7;
 }
 
-/*.myButton:active {
-	position:relative;
-	top:1px;
-}*/
 
 #content{
 
