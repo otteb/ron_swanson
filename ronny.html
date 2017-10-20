@@ -3,6 +3,8 @@
 <head>
  <title>Ron Swanson Quotes</title>
  <link rel="stylesheet" type="text/css" href="main.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
  <script src="https://use.typekit.net/mqi5djg.js"></script>
  <script>try{Typekit.load({ async: true });}catch(e){}</script>
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -11,6 +13,8 @@
 	@import url('https://fonts.googleapis.com/css?family=Bungee');
 	@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 </style>
+  
+
 
 </head>
 <body ng-controller="ronController">
@@ -20,10 +24,10 @@
 	    <h1 id="title">Ron Swanson Says</h1>
 	  </header>
 	  <div id="quote">
-	    <p>{{quote}}</p>
+	    <p>"{{quote}}"</p>
 	  </div>
-	  <a href="#" class="myButton" ng-click="getNewQuote()">Say Something Else</a>
-	  <img id="ronny" src="http://s3.us-east-2.amazonaws.com/ferrelli/ronny+boy.png" alt="Ron's face">
+	  <a href="#" class="myButton" ng-click="getNewQuote()">Say Something Else:</a>
+	  <img id="ronny" class="animated fadeInRight" src="http://s3.us-east-2.amazonaws.com/ferrelli/ronny+boy.png" alt="Ron's face">
 	</div>
 </body>
 

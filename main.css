@@ -51,6 +51,8 @@ body {
   	text-transform: uppercase;
 	float: left;
 	padding-left: 10px;
+	width: 50%;
+
 }
 
 .myButton {
