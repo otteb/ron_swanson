@@ -1,20 +1,19 @@
 #top-header {
-	margin-bottom: 140px;
+	/*margin-bottom: 100px;*/
 
 }
 
 body {
-	background-color: white;
+	background-color: #ff6a29;
 }
 
 #title {
-	font-family: "futura-pt-bold", sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-family: 'Bungee Shade', cursive;
     font-size: 70px;
     text-transform: uppercase;
     float: left;
-    padding-left: 50px;
+    padding-left: 60px;
+    padding-top: 25px;
 }
 
 /*#canvas {
@@ -37,7 +36,7 @@ body {
     padding-right: 35px;
 }
 
-#footer p {
+/*#footer p {
 
 	padding-top: 10px;
 	padding-left: 10px;
@@ -54,12 +53,14 @@ body {
 a {
 	color: #575757;
 	text-decoration: none;
-}
+}*/
 
 #ronny {
 	margin:auto;
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-start;
+	max-width:40%;
+
 }
 
 #quote p {
@@ -67,11 +68,11 @@ a {
 	visibility: visible;
 	left: 10%;
 	top: 50%;
-	font-family: "futura-pt", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 500;
-  font-size: 40px;
-  text-transform: uppercase;
+	font-weight: 600;
+  	font-size: 36px;
+  	text-transform: uppercase;
 	float: left;
 	padding-left: 10px;
 }
@@ -98,7 +99,7 @@ a {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family: "futura-pt", sans-serif;
+	font-family: 'Bungee', cursive;
 	font-size:20px;
 	padding:6px 24px;
 	text-decoration:none;
@@ -119,3 +120,11 @@ a {
 	position:relative;
 	top:1px;
 }*/
+
+#content{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
