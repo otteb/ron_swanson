@@ -11,10 +11,15 @@ body {
 	font-family: "futura-pt-bold", sans-serif;
 	font-style: normal;
 	font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     text-transform: uppercase;
     float: left;
     padding-left: 50px;
+}
+
+#ronny {
+	height: 600px;
+	width: auto;
 }
 
 /*#canvas {
@@ -70,7 +75,7 @@ a {
 	font-family: "futura-pt", sans-serif;
 	font-style: normal;
 	font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
 	float: left;
 	padding-left: 10px;
@@ -79,7 +84,7 @@ a {
 .myButton {
 	position: absolute;
 	left: 15%;
-	top: 70%;
+	top: 80%;
 	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
