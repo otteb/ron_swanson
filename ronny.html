@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ronApp">
 <head>
  <title>Ron Swanson Quotes</title>
  <link rel="stylesheet" type="text/css" href="main.css">
  <script src="https://use.typekit.net/mqi5djg.js"></script>
  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
 
 </head>
-<body>
+<body ng-controller="ronController">
   <header id="top-header">
     <h1 id="title">Ron Swanson Says</h1>
   </header>
   <div id="quote">
-    <p>"Never half-ass two things.
-      <br> &nbsp; Whole-ass one thing."</p>
+    <p>{{quote}}</p>
   </div>
-  <a href="#" class="myButton">Say Something Else</a>
+  <a href="#" class="myButton" ng-click="ronService.getQuote()">Say Something Else</a>
   <img id="ronny" src="http://s3.us-east-2.amazonaws.com/ferrelli/ronny+boy.png" alt="Ron's face">
 </body>
+
+  <script src="app.js"></script>
+  <script src="service.js"></script>
 </html>
