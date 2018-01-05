@@ -9,7 +9,9 @@ firstApp.controller('ronController', function($scope, ronService, $http){
     })
   }
   ronService.getQuote().then(function(response){
-    console.log(response.data[0]);
-    $scope.quote = response.data[0];
+   $scope.quote = "Poke my face for a quote.";
+   console.log("First load");
+   // console.log(response.data[0]);
+   // $scope.quote = response.data[0];
   })
 });
